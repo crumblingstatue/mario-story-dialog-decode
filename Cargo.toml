@@ -1,0 +1,14 @@
+[package]
+name = "mario-story-dialog-decode"
+version = "0.1.0"
+edition = "2021"
+
+[[example]]
+name = "hexerator-plugin"
+crate-type = ["cdylib"]
+
+[dependencies]
+num_enum = "0.7.2"
+
+[dev-dependencies]
+hexerator-plugin-api = { git = "https://github.com/crumblingstatue/hexerator.git" }
